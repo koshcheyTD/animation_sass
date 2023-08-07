@@ -1,0 +1,657 @@
+@import url("./reset.css");
+html, body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #136281;
+}
+html .ellipse,
+html .ellipse1,
+html .ellipse2,
+html .ellipse3,
+html .ellipse4, body .ellipse,
+body .ellipse1,
+body .ellipse2,
+body .ellipse3,
+body .ellipse4 {
+  position: absolute;
+  bottom: 0%;
+  left: 70%;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #A7A7A7;
+  border-radius: 10em;
+  opacity: 0;
+}
+html .medusa, body .medusa {
+  width: 15%;
+  height: 20%;
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: rotate(30deg);
+}
+html .medusa .head_medusa, body .medusa .head_medusa {
+  width: 33%;
+  height: 65%;
+  z-index: 2;
+  position: absolute;
+}
+html .medusa .head_medusa .head_medusa_svg, body .medusa .head_medusa .head_medusa_svg {
+  width: 100%;
+  height: 100%;
+}
+html .medusa .tentacles, body .medusa .tentacles {
+  position: absolute;
+  top: 6%;
+  left: 31%;
+  width: 100%;
+  height: 65%;
+}
+html .medusa .tentacles .tentacle_medusa1, body .medusa .tentacles .tentacle_medusa1 {
+  position: absolute;
+  top: 5%;
+  left: 0%;
+  width: 100%;
+  height: 20%;
+}
+html .medusa .tentacles .tentacle_medusa1 .ellipse_medusa1,
+html .medusa .tentacles .tentacle_medusa1 .ellipse_medusa2,
+html .medusa .tentacles .tentacle_medusa1 .ellipse_medusa3,
+html .medusa .tentacles .tentacle_medusa1 .ellipse_medusa4,
+html .medusa .tentacles .tentacle_medusa1 .ellipse_medusa5,
+html .medusa .tentacles .tentacle_medusa1 .ellipse_medusa6,
+html .medusa .tentacles .tentacle_medusa1 .ellipse_medusa7,
+html .medusa .tentacles .tentacle_medusa1 .ellipse_medusa8,
+html .medusa .tentacles .tentacle_medusa1 .ellipse_medusa9,
+html .medusa .tentacles .tentacle_medusa1 .ellipse_medusa10, body .medusa .tentacles .tentacle_medusa1 .ellipse_medusa1,
+body .medusa .tentacles .tentacle_medusa1 .ellipse_medusa2,
+body .medusa .tentacles .tentacle_medusa1 .ellipse_medusa3,
+body .medusa .tentacles .tentacle_medusa1 .ellipse_medusa4,
+body .medusa .tentacles .tentacle_medusa1 .ellipse_medusa5,
+body .medusa .tentacles .tentacle_medusa1 .ellipse_medusa6,
+body .medusa .tentacles .tentacle_medusa1 .ellipse_medusa7,
+body .medusa .tentacles .tentacle_medusa1 .ellipse_medusa8,
+body .medusa .tentacles .tentacle_medusa1 .ellipse_medusa9,
+body .medusa .tentacles .tentacle_medusa1 .ellipse_medusa10 {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 7%;
+  height: 25%;
+  border: 2px solid #C787AD;
+  border-radius: 10em;
+}
+html .medusa .tentacles .tentacle_medusa1 .ellipse_medusa2, body .medusa .tentacles .tentacle_medusa1 .ellipse_medusa2 {
+  left: 8%;
+}
+html .medusa .tentacles .tentacle_medusa1 .ellipse_medusa3, body .medusa .tentacles .tentacle_medusa1 .ellipse_medusa3 {
+  left: 16%;
+}
+html .medusa .tentacles .tentacle_medusa1 .ellipse_medusa4, body .medusa .tentacles .tentacle_medusa1 .ellipse_medusa4 {
+  left: 24%;
+}
+html .medusa .tentacles .tentacle_medusa1 .ellipse_medusa5, body .medusa .tentacles .tentacle_medusa1 .ellipse_medusa5 {
+  left: 32%;
+}
+html .medusa .tentacles .tentacle_medusa1 .ellipse_medusa6, body .medusa .tentacles .tentacle_medusa1 .ellipse_medusa6 {
+  left: 40%;
+}
+html .medusa .tentacles .tentacle_medusa1 .ellipse_medusa7, body .medusa .tentacles .tentacle_medusa1 .ellipse_medusa7 {
+  left: 48%;
+}
+html .medusa .tentacles .tentacle_medusa1 .ellipse_medusa8, body .medusa .tentacles .tentacle_medusa1 .ellipse_medusa8 {
+  left: 56%;
+}
+html .medusa .tentacles .tentacle_medusa1 .ellipse_medusa9, body .medusa .tentacles .tentacle_medusa1 .ellipse_medusa9 {
+  left: 64%;
+}
+html .medusa .tentacles .tentacle_medusa1 .ellipse_medusa10, body .medusa .tentacles .tentacle_medusa1 .ellipse_medusa10 {
+  left: 72%;
+}
+html .medusa .tentacles .tentacle_medusa2, body .medusa .tentacles .tentacle_medusa2 {
+  position: absolute;
+  top: 19.5%;
+  left: 0%;
+  width: 100%;
+  height: 20%;
+}
+html .medusa .tentacles .tentacle_medusa2 .ellipse_medusa1,
+html .medusa .tentacles .tentacle_medusa2 .ellipse_medusa2,
+html .medusa .tentacles .tentacle_medusa2 .ellipse_medusa3,
+html .medusa .tentacles .tentacle_medusa2 .ellipse_medusa4,
+html .medusa .tentacles .tentacle_medusa2 .ellipse_medusa5,
+html .medusa .tentacles .tentacle_medusa2 .ellipse_medusa6,
+html .medusa .tentacles .tentacle_medusa2 .ellipse_medusa7,
+html .medusa .tentacles .tentacle_medusa2 .ellipse_medusa8,
+html .medusa .tentacles .tentacle_medusa2 .ellipse_medusa9,
+html .medusa .tentacles .tentacle_medusa2 .ellipse_medusa10, body .medusa .tentacles .tentacle_medusa2 .ellipse_medusa1,
+body .medusa .tentacles .tentacle_medusa2 .ellipse_medusa2,
+body .medusa .tentacles .tentacle_medusa2 .ellipse_medusa3,
+body .medusa .tentacles .tentacle_medusa2 .ellipse_medusa4,
+body .medusa .tentacles .tentacle_medusa2 .ellipse_medusa5,
+body .medusa .tentacles .tentacle_medusa2 .ellipse_medusa6,
+body .medusa .tentacles .tentacle_medusa2 .ellipse_medusa7,
+body .medusa .tentacles .tentacle_medusa2 .ellipse_medusa8,
+body .medusa .tentacles .tentacle_medusa2 .ellipse_medusa9,
+body .medusa .tentacles .tentacle_medusa2 .ellipse_medusa10 {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 7%;
+  height: 25%;
+  border: 2px solid #C787AD;
+  border-radius: 10em;
+}
+html .medusa .tentacles .tentacle_medusa2 .ellipse_medusa2, body .medusa .tentacles .tentacle_medusa2 .ellipse_medusa2 {
+  left: 7%;
+}
+html .medusa .tentacles .tentacle_medusa2 .ellipse_medusa3, body .medusa .tentacles .tentacle_medusa2 .ellipse_medusa3 {
+  left: 14%;
+}
+html .medusa .tentacles .tentacle_medusa2 .ellipse_medusa4, body .medusa .tentacles .tentacle_medusa2 .ellipse_medusa4 {
+  left: 21%;
+}
+html .medusa .tentacles .tentacle_medusa2 .ellipse_medusa5, body .medusa .tentacles .tentacle_medusa2 .ellipse_medusa5 {
+  left: 28%;
+}
+html .medusa .tentacles .tentacle_medusa2 .ellipse_medusa6, body .medusa .tentacles .tentacle_medusa2 .ellipse_medusa6 {
+  left: 35%;
+}
+html .medusa .tentacles .tentacle_medusa2 .ellipse_medusa7, body .medusa .tentacles .tentacle_medusa2 .ellipse_medusa7 {
+  left: 42%;
+}
+html .medusa .tentacles .tentacle_medusa2 .ellipse_medusa8, body .medusa .tentacles .tentacle_medusa2 .ellipse_medusa8 {
+  left: 49%;
+}
+html .medusa .tentacles .tentacle_medusa2 .ellipse_medusa9, body .medusa .tentacles .tentacle_medusa2 .ellipse_medusa9 {
+  left: 56%;
+}
+html .medusa .tentacles .tentacle_medusa2 .ellipse_medusa10, body .medusa .tentacles .tentacle_medusa2 .ellipse_medusa10 {
+  left: 63%;
+}
+html .medusa .tentacles .tentacle_medusa3, body .medusa .tentacles .tentacle_medusa3 {
+  position: absolute;
+  top: 34%;
+  left: 0%;
+  width: 100%;
+  height: 20%;
+}
+html .medusa .tentacles .tentacle_medusa3 .ellipse_medusa1,
+html .medusa .tentacles .tentacle_medusa3 .ellipse_medusa2,
+html .medusa .tentacles .tentacle_medusa3 .ellipse_medusa3,
+html .medusa .tentacles .tentacle_medusa3 .ellipse_medusa4,
+html .medusa .tentacles .tentacle_medusa3 .ellipse_medusa5,
+html .medusa .tentacles .tentacle_medusa3 .ellipse_medusa6,
+html .medusa .tentacles .tentacle_medusa3 .ellipse_medusa7,
+html .medusa .tentacles .tentacle_medusa3 .ellipse_medusa8,
+html .medusa .tentacles .tentacle_medusa3 .ellipse_medusa9,
+html .medusa .tentacles .tentacle_medusa3 .ellipse_medusa10, body .medusa .tentacles .tentacle_medusa3 .ellipse_medusa1,
+body .medusa .tentacles .tentacle_medusa3 .ellipse_medusa2,
+body .medusa .tentacles .tentacle_medusa3 .ellipse_medusa3,
+body .medusa .tentacles .tentacle_medusa3 .ellipse_medusa4,
+body .medusa .tentacles .tentacle_medusa3 .ellipse_medusa5,
+body .medusa .tentacles .tentacle_medusa3 .ellipse_medusa6,
+body .medusa .tentacles .tentacle_medusa3 .ellipse_medusa7,
+body .medusa .tentacles .tentacle_medusa3 .ellipse_medusa8,
+body .medusa .tentacles .tentacle_medusa3 .ellipse_medusa9,
+body .medusa .tentacles .tentacle_medusa3 .ellipse_medusa10 {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 7%;
+  height: 25%;
+  border: 2px solid #C787AD;
+  border-radius: 10em;
+}
+html .medusa .tentacles .tentacle_medusa3 .ellipse_medusa2, body .medusa .tentacles .tentacle_medusa3 .ellipse_medusa2 {
+  left: 8%;
+}
+html .medusa .tentacles .tentacle_medusa3 .ellipse_medusa3, body .medusa .tentacles .tentacle_medusa3 .ellipse_medusa3 {
+  left: 16%;
+}
+html .medusa .tentacles .tentacle_medusa3 .ellipse_medusa4, body .medusa .tentacles .tentacle_medusa3 .ellipse_medusa4 {
+  left: 24%;
+}
+html .medusa .tentacles .tentacle_medusa3 .ellipse_medusa5, body .medusa .tentacles .tentacle_medusa3 .ellipse_medusa5 {
+  left: 32%;
+}
+html .medusa .tentacles .tentacle_medusa3 .ellipse_medusa6, body .medusa .tentacles .tentacle_medusa3 .ellipse_medusa6 {
+  left: 40%;
+}
+html .medusa .tentacles .tentacle_medusa3 .ellipse_medusa7, body .medusa .tentacles .tentacle_medusa3 .ellipse_medusa7 {
+  left: 48%;
+}
+html .medusa .tentacles .tentacle_medusa3 .ellipse_medusa8, body .medusa .tentacles .tentacle_medusa3 .ellipse_medusa8 {
+  left: 56%;
+}
+html .medusa .tentacles .tentacle_medusa3 .ellipse_medusa9, body .medusa .tentacles .tentacle_medusa3 .ellipse_medusa9 {
+  left: 64%;
+}
+html .medusa .tentacles .tentacle_medusa3 .ellipse_medusa10, body .medusa .tentacles .tentacle_medusa3 .ellipse_medusa10 {
+  left: 72%;
+}
+html .medusa .tentacles .tentacle_medusa4, body .medusa .tentacles .tentacle_medusa4 {
+  position: absolute;
+  top: 48.5%;
+  left: 0%;
+  width: 100%;
+  height: 20%;
+}
+html .medusa .tentacles .tentacle_medusa4 .ellipse_medusa1,
+html .medusa .tentacles .tentacle_medusa4 .ellipse_medusa2,
+html .medusa .tentacles .tentacle_medusa4 .ellipse_medusa3,
+html .medusa .tentacles .tentacle_medusa4 .ellipse_medusa4,
+html .medusa .tentacles .tentacle_medusa4 .ellipse_medusa5,
+html .medusa .tentacles .tentacle_medusa4 .ellipse_medusa6,
+html .medusa .tentacles .tentacle_medusa4 .ellipse_medusa7,
+html .medusa .tentacles .tentacle_medusa4 .ellipse_medusa8,
+html .medusa .tentacles .tentacle_medusa4 .ellipse_medusa9,
+html .medusa .tentacles .tentacle_medusa4 .ellipse_medusa10, body .medusa .tentacles .tentacle_medusa4 .ellipse_medusa1,
+body .medusa .tentacles .tentacle_medusa4 .ellipse_medusa2,
+body .medusa .tentacles .tentacle_medusa4 .ellipse_medusa3,
+body .medusa .tentacles .tentacle_medusa4 .ellipse_medusa4,
+body .medusa .tentacles .tentacle_medusa4 .ellipse_medusa5,
+body .medusa .tentacles .tentacle_medusa4 .ellipse_medusa6,
+body .medusa .tentacles .tentacle_medusa4 .ellipse_medusa7,
+body .medusa .tentacles .tentacle_medusa4 .ellipse_medusa8,
+body .medusa .tentacles .tentacle_medusa4 .ellipse_medusa9,
+body .medusa .tentacles .tentacle_medusa4 .ellipse_medusa10 {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 7%;
+  height: 25%;
+  border: 2px solid #C787AD;
+  border-radius: 10em;
+}
+html .medusa .tentacles .tentacle_medusa4 .ellipse_medusa2, body .medusa .tentacles .tentacle_medusa4 .ellipse_medusa2 {
+  left: 7%;
+}
+html .medusa .tentacles .tentacle_medusa4 .ellipse_medusa3, body .medusa .tentacles .tentacle_medusa4 .ellipse_medusa3 {
+  left: 14%;
+}
+html .medusa .tentacles .tentacle_medusa4 .ellipse_medusa4, body .medusa .tentacles .tentacle_medusa4 .ellipse_medusa4 {
+  left: 21%;
+}
+html .medusa .tentacles .tentacle_medusa4 .ellipse_medusa5, body .medusa .tentacles .tentacle_medusa4 .ellipse_medusa5 {
+  left: 28%;
+}
+html .medusa .tentacles .tentacle_medusa4 .ellipse_medusa6, body .medusa .tentacles .tentacle_medusa4 .ellipse_medusa6 {
+  left: 35%;
+}
+html .medusa .tentacles .tentacle_medusa4 .ellipse_medusa7, body .medusa .tentacles .tentacle_medusa4 .ellipse_medusa7 {
+  left: 42%;
+}
+html .medusa .tentacles .tentacle_medusa4 .ellipse_medusa8, body .medusa .tentacles .tentacle_medusa4 .ellipse_medusa8 {
+  left: 49%;
+}
+html .medusa .tentacles .tentacle_medusa4 .ellipse_medusa9, body .medusa .tentacles .tentacle_medusa4 .ellipse_medusa9 {
+  left: 56%;
+}
+html .medusa .tentacles .tentacle_medusa4 .ellipse_medusa10, body .medusa .tentacles .tentacle_medusa4 .ellipse_medusa10 {
+  left: 63%;
+}
+html .medusa .tentacles .tentacle_medusa5, body .medusa .tentacles .tentacle_medusa5 {
+  position: absolute;
+  top: 63%;
+  left: 0%;
+  width: 100%;
+  height: 20%;
+}
+html .medusa .tentacles .tentacle_medusa5 .ellipse_medusa1,
+html .medusa .tentacles .tentacle_medusa5 .ellipse_medusa2,
+html .medusa .tentacles .tentacle_medusa5 .ellipse_medusa3,
+html .medusa .tentacles .tentacle_medusa5 .ellipse_medusa4,
+html .medusa .tentacles .tentacle_medusa5 .ellipse_medusa5,
+html .medusa .tentacles .tentacle_medusa5 .ellipse_medusa6,
+html .medusa .tentacles .tentacle_medusa5 .ellipse_medusa7,
+html .medusa .tentacles .tentacle_medusa5 .ellipse_medusa8,
+html .medusa .tentacles .tentacle_medusa5 .ellipse_medusa9,
+html .medusa .tentacles .tentacle_medusa5 .ellipse_medusa10, body .medusa .tentacles .tentacle_medusa5 .ellipse_medusa1,
+body .medusa .tentacles .tentacle_medusa5 .ellipse_medusa2,
+body .medusa .tentacles .tentacle_medusa5 .ellipse_medusa3,
+body .medusa .tentacles .tentacle_medusa5 .ellipse_medusa4,
+body .medusa .tentacles .tentacle_medusa5 .ellipse_medusa5,
+body .medusa .tentacles .tentacle_medusa5 .ellipse_medusa6,
+body .medusa .tentacles .tentacle_medusa5 .ellipse_medusa7,
+body .medusa .tentacles .tentacle_medusa5 .ellipse_medusa8,
+body .medusa .tentacles .tentacle_medusa5 .ellipse_medusa9,
+body .medusa .tentacles .tentacle_medusa5 .ellipse_medusa10 {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 7%;
+  height: 25%;
+  border: 2px solid #C787AD;
+  border-radius: 10em;
+}
+html .medusa .tentacles .tentacle_medusa5 .ellipse_medusa2, body .medusa .tentacles .tentacle_medusa5 .ellipse_medusa2 {
+  left: 8%;
+}
+html .medusa .tentacles .tentacle_medusa5 .ellipse_medusa3, body .medusa .tentacles .tentacle_medusa5 .ellipse_medusa3 {
+  left: 16%;
+}
+html .medusa .tentacles .tentacle_medusa5 .ellipse_medusa4, body .medusa .tentacles .tentacle_medusa5 .ellipse_medusa4 {
+  left: 24%;
+}
+html .medusa .tentacles .tentacle_medusa5 .ellipse_medusa5, body .medusa .tentacles .tentacle_medusa5 .ellipse_medusa5 {
+  left: 32%;
+}
+html .medusa .tentacles .tentacle_medusa5 .ellipse_medusa6, body .medusa .tentacles .tentacle_medusa5 .ellipse_medusa6 {
+  left: 40%;
+}
+html .medusa .tentacles .tentacle_medusa5 .ellipse_medusa7, body .medusa .tentacles .tentacle_medusa5 .ellipse_medusa7 {
+  left: 48%;
+}
+html .medusa .tentacles .tentacle_medusa5 .ellipse_medusa8, body .medusa .tentacles .tentacle_medusa5 .ellipse_medusa8 {
+  left: 56%;
+}
+html .medusa .tentacles .tentacle_medusa5 .ellipse_medusa9, body .medusa .tentacles .tentacle_medusa5 .ellipse_medusa9 {
+  left: 64%;
+}
+html .medusa .tentacles .tentacle_medusa5 .ellipse_medusa10, body .medusa .tentacles .tentacle_medusa5 .ellipse_medusa10 {
+  left: 72%;
+}
+html .bottom, body .bottom {
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  max-height: 20%;
+}
+html .bottom .stouns, body .bottom .stouns {
+  width: 100%;
+}
+
+@keyframes anim_ellipse {
+  0% {
+    bottom: 0%;
+    opacity: 0;
+    transform: scale(0);
+  }
+  1% {
+    opacity: 0.3;
+  }
+  2% {
+    opacity: 0.7;
+  }
+  3% {
+    opacity: 1;
+  }
+  25% {
+    bottom: 25%;
+    left: 70%;
+    transform: scale(0.25);
+  }
+  50% {
+    bottom: 50%;
+    left: 69%;
+    transform: scale(0.5);
+  }
+  75% {
+    bottom: 75%;
+    left: 70%;
+    opacity: 0.7;
+    transform: scale(0.75);
+  }
+  99% {
+    bottom: 100%;
+    left: 71%;
+    opacity: 0.5;
+    transform: scale(1);
+  }
+  100% {
+    bottom: 105%;
+    opacity: 0;
+  }
+}
+.ellipse {
+  animation: anim_ellipse 5s linear infinite normal;
+}
+
+.ellipse1 {
+  animation: anim_ellipse 5s linear 1s infinite normal;
+}
+
+.ellipse2 {
+  animation: anim_ellipse 5s linear 2s infinite normal;
+}
+
+.ellipse3 {
+  animation: anim_ellipse 5s linear 3s infinite normal;
+}
+
+.ellipse4 {
+  animation: anim_ellipse 5s linear 4s infinite normal;
+}
+
+@keyframes medusa_anim {
+  0% {
+    transform: scale(0);
+    left: 80%;
+  }
+  25% {
+    transform: scale(1);
+    left: 67.5%;
+    top: 40%;
+  }
+  50% {
+    left: 45%;
+    top: 30%;
+  }
+  75% {
+    left: 22.5%;
+    top: 20%;
+    transform: scale(1);
+  }
+  80% {
+    transform: scale(1);
+  }
+  99.99% {
+    left: -1%;
+    top: 10%;
+    transform: scale(0);
+  }
+  100% {
+    left: -10%;
+    top: 0%;
+    transform: scale(0);
+  }
+}
+.medusa {
+  animation: medusa_anim 60s linear infinite normal;
+}
+
+@keyframes head_medusa_svg_anim {
+  0% {
+    transform: scale(1);
+  }
+  4% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.2);
+  }
+  50% {
+    transform: scale(1);
+  }
+  75% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.head_medusa_svg {
+  animation: head_medusa_svg_anim 10s linear infinite normal;
+}
+
+@keyframes tentacle_anim {
+  0% {
+    top: 0%;
+  }
+  5% {
+    top: 10%;
+  }
+  10% {
+    top: 0%;
+  }
+  15% {
+    top: -10%;
+  }
+  20% {
+    top: 0%;
+  }
+  25% {
+    top: 10%;
+  }
+  30% {
+    top: 0%;
+  }
+  35% {
+    top: -10%;
+  }
+  40% {
+    top: 0%;
+  }
+  45% {
+    top: 10%;
+  }
+  50% {
+    top: 0%;
+  }
+  55% {
+    top: -10%;
+  }
+  60% {
+    top: 0%;
+  }
+  65% {
+    top: 10%;
+  }
+  70% {
+    top: 0%;
+  }
+  75% {
+    top: -10%;
+  }
+  80% {
+    top: 0%;
+  }
+  85% {
+    top: 10%;
+  }
+  90% {
+    top: 0%;
+  }
+  95% {
+    top: -10%;
+  }
+  100% {
+    top: 0%;
+  }
+}
+.ellipse_medusa1 {
+  animation: tentacle_anim 5s linear infinite reverse;
+}
+
+.ellipse_medusa3 {
+  animation: tentacle_anim 5s linear 0.6s infinite reverse;
+}
+
+.ellipse_medusa5 {
+  animation: tentacle_anim 5s linear 1.2s infinite reverse;
+}
+
+.ellipse_medusa7 {
+  animation: tentacle_anim 5s linear 1.8s infinite reverse;
+}
+
+.ellipse_medusa9 {
+  animation: tentacle_anim 5s linear 2.4s infinite reverse;
+}
+
+@keyframes tentacle_anim_1 {
+  0% {
+    top: 0%;
+  }
+  5% {
+    top: -10%;
+  }
+  10% {
+    top: 0%;
+  }
+  15% {
+    top: 10%;
+  }
+  20% {
+    top: 0%;
+  }
+  25% {
+    top: -10%;
+  }
+  30% {
+    top: 0%;
+  }
+  35% {
+    top: 10%;
+  }
+  40% {
+    top: 0%;
+  }
+  45% {
+    top: -10%;
+  }
+  50% {
+    top: 0%;
+  }
+  55% {
+    top: 10%;
+  }
+  60% {
+    top: 0%;
+  }
+  65% {
+    top: -10%;
+  }
+  70% {
+    top: 0%;
+  }
+  75% {
+    top: 10%;
+  }
+  80% {
+    top: 0%;
+  }
+  85% {
+    top: -10%;
+  }
+  90% {
+    top: 0%;
+  }
+  95% {
+    top: 10%;
+  }
+  100% {
+    top: 0%;
+  }
+}
+.ellipse_medusa2 {
+  animation: tentacle_anim_1 5s linear 0.3s infinite reverse;
+}
+
+.ellipse_medusa4 {
+  animation: tentacle_anim_1 5s linear 0.9s infinite reverse;
+}
+
+.ellipse_medusa6 {
+  animation: tentacle_anim_1 5s linear 1.5s infinite reverse;
+}
+
+.ellipse_medusa8 {
+  animation: tentacle_anim_1 5s linear 2.1s infinite reverse;
+}
+
+.ellipse_medusa10 {
+  animation: tentacle_anim_1 5s linear 2.7s infinite reverse;
+}
